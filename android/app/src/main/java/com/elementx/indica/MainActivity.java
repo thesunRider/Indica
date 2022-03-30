@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
                     StringRequest stringRequest;
 
                     if (isChecked) {
-                        stringRequest  = new StringRequest(Request.Method.GET, url +"?indic=1&swtch=1",null,null);
+                        stringRequest  = new StringRequest(Request.Method.GET, url +"/device_set?indic=1&swtch=1",null,null);
                         queue.add(stringRequest);
                     } else {
-                        stringRequest  = new StringRequest(Request.Method.GET, url+"?indic=1&swtch=0",null,null);
+                        stringRequest  = new StringRequest(Request.Method.GET, url+"/device_set?indic=1&swtch=0",null,null);
                         queue.add(stringRequest);
                     }
 
@@ -76,10 +76,15 @@ public class MainActivity extends AppCompatActivity {
                     StringRequest stringRequest;
 
                     if (isChecked) {
-                        stringRequest  = new StringRequest(Request.Method.GET, url +"?indic=0&swtch=1",null,null);
+                        stringRequest  = new StringRequest(Request.Method.GET, url +"/device_set?indic=0&swtch=1",null, new Response.ErrorListener() {
+                            @Override
+                            public void onErrorResponse(VolleyError error) {
+                                error.printStackTrace();
+                            }});
+
                         queue.add(stringRequest);
                     } else {
-                        stringRequest  = new StringRequest(Request.Method.GET, url+"?indic=0&swtch=0",null,null);
+                        stringRequest  = new StringRequest(Request.Method.GET, url+"/device_set?indic=0&swtch=0",null,null);
                         queue.add(stringRequest);
                     }
 

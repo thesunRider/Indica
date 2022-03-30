@@ -32,12 +32,7 @@ def device_on():
 def device_status():
 	global ind_left
 	global ind_right
-
-	indic = int(request.args.get('indic'))
-
-	if indic == 0:
-		return str(int(ind_left))
 	
-	if indic == 1:
-		return str(int(ind_right))
+	return str(ind_left) + ":" +str(ind_right)
+
 	

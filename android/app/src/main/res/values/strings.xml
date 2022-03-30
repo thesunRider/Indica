@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Indica</string>
+    <string name="url_ind">http://e39b-61-1-180-57.ngrok.io/device_set</string>
+</resources>

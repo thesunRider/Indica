@@ -18,7 +18,7 @@ Indica is an IOT based LED blinker,whereby using an android app you can turn on 
 
 Made in proteus consiting of a 3.7v regulator and an ESP-01 board, Supply 9v
 
-![Circuit](documentation/circuit.bmp?raw=true "Circuit")
+![Circuit](documentation/circuit.png?raw=true "Circuit")
 
 ## Running
 

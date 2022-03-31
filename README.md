@@ -22,11 +22,13 @@ Made in proteus consiting of a 3.7v regulator and an ESP-01 board, Supply 9v
 
 ## Flowchart
 
-- Flowchart Android app
+- Flowchart Android app:		
+
 ![Flowchart Android app](documentation/android_flow.jpg?raw=true "Flowchart Android app")
 
 
-- Flowchart ESP8266 board
+- Flowchart ESP8266 board:		
+
 ![Flowchart ESP8266](documentation/controller_flow.jpg?raw=true "Flowchart Microcontroller")
 
 ## Running

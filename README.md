@@ -33,7 +33,7 @@ Made in proteus consiting of a 3.7v regulator and an ESP-01 board, Supply 9v
 
 Make sure there is a wifi hotspot of 2.5ghz before booting up the device,the hotspot should have:
 
-`Wifi SSID: lasec
+`Wifi SSID: lasec \n
 Wifi password: lasec@123`
 
 The device would automatically connect to this wifi on startup and start querying details from the main IOT server.

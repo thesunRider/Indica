@@ -1,12 +1,17 @@
-# Indica
-Indicator IOT
+
+# Indica Blinker
+
+Indica is an IOT based LED blinker,whereby using an android app you can turn on and off two LED's independently.
 
 
-Indicator to blink two led's attatched to an ESP-01's IO0,I02 pins respectively,controlled via android application
+## Demo
 
-Server hosted on pythonanywhere using flask
+![Prototype](documentation/demo.jpg?raw=true "Prototype")
+![Android App](documentation/app.png?raw=true "Android AppAndroid App")
 
-Architectures used:
+
+## Architectures
+
 Python - Web end
 C++    - MCU
 Java   - Android App
